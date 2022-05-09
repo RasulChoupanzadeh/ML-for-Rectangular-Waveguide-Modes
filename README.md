@@ -67,7 +67,7 @@ Run the ML_algorithm.py with desired "incr" values. This code calls the data_gen
 ## Outputs:
 - Predicted class: An scalar value representing the predicted class of a random instance in dataset using selected model
 
--Decision Tree scores: A vector of socres of each class for a random instance in dataset using selected model
+- Decision Tree scores: A vector of socres of each class for a random instance in dataset using selected model
     * Dimensions: 1 X number of classes
 - Confusion matrix: An array confusion matrix of selected model
     * Dimensions: number of classes X number of classes
