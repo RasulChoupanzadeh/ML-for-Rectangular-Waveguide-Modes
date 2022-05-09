@@ -24,8 +24,9 @@ in Spring 2022 by Prof. Zadehgol at the University of Idaho in Moscow, Idaho.
 From [3], In addition to licensing GNU GPL v.3:
 
 >- If the code is used in a scientific work, then reference should be made as follows:
->  - ML_algorithm.py: References [2], [3].
->  - data_generation.py: References [1].
+>     * ML_algorithm.py: References [2], [3].
+>     * data_generation.py: References [1].
+>- In addition to the codes, if the Final report.pdf is used in a scentific work, then this repository should be referenced directly.
 
 # Files:
 
