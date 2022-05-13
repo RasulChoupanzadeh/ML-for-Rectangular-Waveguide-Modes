@@ -80,7 +80,7 @@ Run the ML_algorithm.py with desired "incr" values. This code calls the data_gen
 
 # Python Version Information:
 Python 3.8.13
-Libraries used:
+-Libraries used:
    * pip		21.2.2
    * scikit-learn	1.0.2
    * numpy		1.21.5
