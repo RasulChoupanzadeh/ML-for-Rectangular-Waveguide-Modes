@@ -55,25 +55,25 @@ From [3], In addition to licensing GNU GPL v.3:
 Run the ML_algorithm.py with desired "incr" values. This code calls the data_generation.py for generating datasets used in Final report.pdf, then, trains, evaluates, and tests the models. To make changes in the dataset, parameters in data_generation.py must be changed.
 
 ## Inputs:
-- a: An scalar value for width of rectangular waveguide
-- b: An scalar value for height of recangular waveguide
-- m_max: An scalar value for maximum number of 'm' in modal configuration
-- n_max: An scalar value for maximum number of 'n' in modal configuration
-- incr: An scalar value for number of incremental points. It is the number of points which data is generated along wideth (x-axis) and height (y-axis) of waveguide
+- a: A scalar value for width of rectangular waveguide
+- b: A scalar value for height of recangular waveguide
+- m_max: A scalar value for maximum number of 'm' in modal configuration
+- n_max: A scalar value for maximum number of 'n' in modal configuration
+- incr: A scalar value for number of incremental points. It is the number of points which data is generated along wideth (x-axis) and height (y-axis) of waveguide
 - freq: Frequency data in a vector. Operating frequency of waveguide
     * Dimension: number_of_frequency_points
 
 
 ## Outputs:
-- Predicted class: An scalar value representing the predicted class of a random instance in dataset using selected model
+- Predicted class: A scalar value representing the predicted class of a random instance in dataset using selected model
 
 - Decision function scores: A vector of socres of each class for a random instance in dataset using selected model
     * Dimensions: 1 X number of classes
 - Confusion matrix: An array confusion matrix of selected model
     * Dimensions: number of classes X number of classes
-- Precission score: An scalar value for precision score of selected model
-- Recall score: An scalar value for recall score of selected model
-- F1 score: An scalar value for F1 score of selected model
+- Precission score: A scalar value for precision score of selected model
+- Recall score: A scalar value for recall score of selected model
+- F1 score: A scalar value for F1 score of selected model
 - Accuracy: A vector of k-fold cross validation scores 
     * Dimensions: 1 X k
 
